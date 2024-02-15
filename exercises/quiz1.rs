@@ -13,11 +13,19 @@
 //
 // No hints this time ;)
 
-// I AM NOT DONE
+
 
 // Put your function here!
-// fn calculate_price_of_apples {
-
+fn calculate_price_of_apples(number:i32) -> i32 {
+    let mut price;
+    if number <= 40 {
+        price = number * 2;
+    }  
+    else{
+        price = number;
+    } 
+    price
+}
 // Don't modify this function!
 #[test]
 fn verify_test() {
